@@ -24,7 +24,7 @@ Flat and responsive website template, designed and coded by : <a href="https://w
   <li>HTML 5</li>
   <li>CSS 3</li>
   <li>Sass</li>
-  <li>Bootstrap</li>
+  <li>Bootstrap 4.1</li>
   <li>JavaScript</li>
   <li>PHP</li>
   <li>Photoshop</li>
