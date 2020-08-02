@@ -10,9 +10,9 @@ You can see Demo in: <a href="https://www.fabianomoraes.net/template/woodwork/" 
 
 <p>./</p>
 <p>├── assets</p>
-<p>|&nbsp;&nbsp;&nbsp;&nbsp;├── css/                                * css and scss map files</p>
-<p>|&nbsp;&nbsp;&nbsp;&nbsp;├── img/                                * img files</p>
-<p>|&nbsp;&nbsp;&nbsp;&nbsp;├── js/                                 * js files</p>
+<p>|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── css/                                * css and scss map files</p>
+<p>|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── img/                                * img files</p>
+<p>|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── js/                                 * js files</p>
 <p>├── components                              * components files</p>
 
 
