@@ -19,6 +19,16 @@ Flat and responsive website template, designed and coded by : <a href="https://w
 <br />
 <p>The <strong>Carousel</strong> was done with pure JS and CSS,  without JQUERY </p>
 
+<h2>Tools and technologies used</h2>
+<ul>
+  <li>HTML 5</li>
+  <li>CSS 3</li>
+  <li>Sass</li>
+  <li>Bootstrap</li>
+  <li>JavaScript</li>
+  <li>PHP</li>
+</ul>
+
 <br />
 
 <h5>Contact <a href="https://www.fabianomoraes.net">Fabiano Moraes</a></h5>
