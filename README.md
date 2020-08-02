@@ -8,15 +8,16 @@ You can see Demo in: <a href="https://www.fabianomoraes.net/template/woodwork/" 
 <h2>Folder and Files Structures</h2>
 
 
-./
-├── assets
-|   ├── css/                                * css and scss map files
-|   ├── img/                                * img files
-|   ├── js/                                 * js files
-├── components                              * components files
-|
+<p>./</p>
+<p>├── assets</p>
+<p>|   ├── css/                                * css and scss map files</p>
+<p>|   ├── img/                                * img files</p>
+<p>|   ├── js/                                 * js files</p>
+<p>├── components                              * components files</p>
+<p>|</p>
 
-
+<br />
+<br />
 
 <h2>Contact <a href="mailto:masternet.fabiano@gmail.com">Fabiano Moraes</a>
 
