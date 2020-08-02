@@ -27,6 +27,7 @@ Flat and responsive website template, designed and coded by : <a href="https://w
   <li>Bootstrap</li>
   <li>JavaScript</li>
   <li>PHP</li>
+  <li>Photoshop</li>
 </ul>
 
 <br />
