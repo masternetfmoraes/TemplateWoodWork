@@ -19,8 +19,10 @@ You can see Demo in: <a href="https://www.fabianomoraes.net/template/woodwork/" 
 <br />
 <br />
 
-<h2>Contact <a href="mailto:masternet.fabiano@gmail.com">Fabiano Moraes</a>
-
+<h5>Contact <a href="https://www.fabianomoraes.net">Fabiano Moraes</a></h5>
+<br />
+<br />
+<hr />
 Thanks
 
 
