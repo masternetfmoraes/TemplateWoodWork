@@ -17,6 +17,8 @@ You can see Demo in: <a href="https://www.fabianomoraes.net/template/woodwork/" 
 
 
 <br />
+<p>The <strong>Carousel</strong> was done with pure JS and CSS,  without JQUERY </p>
+
 <br />
 
 <h5>Contact <a href="https://www.fabianomoraes.net">Fabiano Moraes</a></h5>
