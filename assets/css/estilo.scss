@@ -1,0 +1,169 @@
+body{
+	overflow-x: hidden;
+	font-family: 'Roboto', sans-serif;
+	margin: 0;
+}
+.h3{
+	font-family: 'Roboto', sans-serif;
+	font-size: 45px;
+}
+.text-yellow{
+	color: #FFFF00;
+}
+.nav-bar-detail{
+    border-bottom: 10px solid white;
+    box-shadow: 0px 6px 11px 0px #000000;
+    z-index: 11
+}
+.card-item-title{
+	color: rgba(194, 167, 115, 1);
+}
+.card-zoom{
+	cursor: pointer;
+}
+.card-zoom:hover{
+	transform: scale(1.1);
+	transition: 0.12s ease-in-out transform;
+}
+.shadow-text{
+	text-shadow: 0px 0px 3px #000000;
+}
+.bg-img-who{
+	position: relative;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba( 0, 0, 0, 1);
+	z-index: 1;
+}
+
+.bg-img-who::before{
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-image: url("../../assets/img/background/carpentry01.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	filter: opacity(0.5) blur(5px);
+	z-index: -1;
+}
+
+.bg-img-who::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(0deg, rgba( 0, 0, 0, 0.3) 7%, rgba( 43,42,42, 0.8) 100%);
+  z-index: -1;
+}
+
+.bg-img-footer {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100%;
+  background: black;
+  border-top: 10px solid orange;
+  z-index: 1;
+}
+
+.bg-img-footer::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("../../assets/img/background/person-holding-pencil-1388944.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  filter: opacity(0.5) blur(5px);
+  z-index: -1;
+}
+.bg-img-footer::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(0deg, rgba( 0, 0, 0, 0.3) 7%, rgba( 43,42,42, 0.8) 100%);
+  z-index: -	1;
+}
+
+.btn-border{
+	position: relative;
+	border: 1px solid rgba( 255, 255, 255, 0.8);
+	box-shadow:  0px 0px 2px rgba( 255, 255,255, 0.1);
+	transition:all 0.10s;
+	transition-timing-function: cubic-bezier(.15,1.03,.93,.42);
+}
+.btn-border:hover{
+	border: 1px solid rgba( 255, 255, 255, 0.8);
+	box-shadow:  0px 0px 7px #fff;
+	transform: scale(1.1);
+}
+.container-ico{
+	position: fixed;
+	bottom: 10px;
+	right: 0;
+	z-index: 11;
+	padding: 15px;
+    width: 80px;
+    .whats-ico img{
+        width: 100%;
+        cursor: pointer;
+    }
+}
+
+
+.container-contact{
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	width: 50vw;
+	height: auto;
+	transform: translate(-50%, -50%);
+	border-radius: 15px;
+	display: none;
+	-webkit-box-shadow: 0px 0px 7px 3px #000000; 
+    box-shadow: 0px 0px 7px 3px #000000;
+
+}
+
+#toggle , input{
+    opacity: 0;
+}
+#fecha , input{
+    opacity: 1;
+}
+#toggle , input:checked + nav .container-contact {
+  display: block;
+  animation-name: mostra;
+  animation-duration: 0.25s;
+}
+@keyframes mostra {
+	0%{
+		top:0;
+		filter: opacity(0) blur(25px);
+		-webkit-box-shadow: 0px -401px 15px -2px #000000; 
+				box-shadow: 0px -401px 15px -2px rgb(202, 200, 200);
+	}100%{
+		filter: opacity(1);
+
+	}
+}
+.contact-lista{
+	list-style: none;
+}

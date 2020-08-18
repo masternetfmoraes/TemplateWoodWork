@@ -1,0 +1,41 @@
+<div class="row bg-img-footer">
+	<div class="container shadow">
+		<div class="row">
+			<div class="col-6 mt-5 text-white">
+			<p class="h2 text-white"><strong>WoodWork</strong></p>
+			<ul class="contact-lista">
+				<li><p class="h5"><i class="fa fa-map-marker px-3"></i>Rua Doutor José  Niguém</p></li>
+				<li><p class=""><span class="px-3">&nbsp;</span>JD Qualquer, São Paulo - Capital</p></li>
+				<div class="dropdown-divider w-75"></div>
+				<li><p class="h5 text-warning"><strong><i class="fa fa-mobile px-3"></i>01. 012345-7890</strong></p></li>
+				<li><p class="h5 text-warning"><strong><i class="fa fa-whatsapp px-3"></i>01. 012345-7890</strong></p></li>
+				<li><p class="h5 text-warning"><strong><i class="fa fa-whatsapp px-3"></i>01. 012345-7890</strong></p></li>
+				<div class="dropdown-divider w-75"></div>
+			</ul>
+			<ul class="nav px-4">
+				 <li class="nav-item">
+			    	<a class="nav-link text-white" href="#"><i class="fa fa-facebook-official fa-3x"></i></a>
+			  	</li>
+			  	<li class="nav-item">
+			    	<a class="nav-link text-white" href="#"><i class="fa fa-instagram fa-3x"></i></a>
+			  	</li>
+			  	<li class="nav-item">
+			    	<a class="nav-link text-white" href="#"><i class="fa fa-google fa-3x"></i></a>
+			  	</li>
+			</ul>
+			</div>
+			<div class="col-6 my-5">
+				<!--Google Maps -->
+				<div style="overflow:hidden;width: 450px;position: relative;"><iframe width="450" height="250" src="https://maps.google.com/maps?width=450&amp;height=250&amp;hl=en&amp;q=S%C3%A3o%20Paulo+(WoodWork)&amp;ie=UTF8&amp;t=&amp;z=14&amp;iwloc=B&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><div style="position: absolute;width: 80%;bottom: 10px;left: 0;right: 0;margin-left: auto;margin-right: auto;color: #000;text-align: center;"><small style="line-height: 1.8;font-size: 2px;background: #fff;">Powered by <a href="https://embedgooglemaps.com/fr/">https://embedgooglemaps.com/fr/</a> & <a href=""></a></small></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div><br />
+				<!--Google Maps End -->
+			</div>
+		</div>
+	</div>
+</div>
+<div class="container-fluid bg-dark text-muted">
+	<div class="row">
+		<div class="col">
+			<p class="text-center"><small>Created by: Fabiano Moraes</small></p>
+		</div>
+	</div>
+</div>
